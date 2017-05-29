@@ -1,10 +1,12 @@
+/* Pair programmed by Tahuana and Ian on 29 May 2017 */
+
 /*
  * Modify the contents of the function below, such that:
  *
  * If we're not hungry, we want to tell ourselves to get back to work.
  * Otherwise, we want to pick something up and eat it in the lab when
  * we've got less than 20 minutes or to try a place nearby if we've
- * got between 20 and 30 minutes. If we have any more time than that,
+ * got between 20 and 45 minutes. If we have any more time than that,
  * we want to remind ourselves that we're in a bootcamp and that we
  * should reconsider how much time we actually have to spare.
  *
@@ -14,8 +16,25 @@
  */
 
 function whatToDoForLunch(hungry, availableTime) {
-  console.log("I don't know what to do!");
+  if (!hungry) {
+    console.log("Get to know your classmates better");
+  }
+
+  else {
+          if (availableTime < 20) {
+            console.log("Pick something up and eat in the lab or kitchen");
+          }
+
+          else if ((availableTime => 20) && (availableTime <= 45)) {
+            console.log("You deserve a break! Enjoy lunch somewhere nearby.")
+          }
+
+          else {
+            console.log("This is a bootcamp and you should consider how much time you have to spare");
+          }
+      }
 }
+
 
 
 /*
