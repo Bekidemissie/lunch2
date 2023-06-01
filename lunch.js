@@ -1,8 +1,4 @@
-/* Pair programmed by Tahuana and Ian on 29 May 2017 */
-
 /*
- * Modify the contents of the function below, such that:
- *
  * If we're not hungry, we want to tell ourselves to get back to work.
  * Otherwise, we want to pick something up and eat it in the lab when
  * we've got less than 20 minutes or to try a place nearby if we've
